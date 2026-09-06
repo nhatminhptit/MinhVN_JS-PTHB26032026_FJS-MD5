@@ -1,3 +1,9 @@
+Kết quả bài tập 01:
+
+![alt text]({E99AECF3-1A4E-4A5B-8838-EB0900DE5B22}.png)
+
+##
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
