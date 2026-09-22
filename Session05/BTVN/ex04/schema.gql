@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type UserResponse {
+  id: ID!
+  email: Email!
+}
+
+"""Email custom scalar type"""
+scalar Email
+
+type Query {
+  ping: String!
+}
+
+type Mutation {
+  createUser(input: CreateUserInput!): UserResponse!
+}
+
+input CreateUserInput {
+  email: Email!
+}
