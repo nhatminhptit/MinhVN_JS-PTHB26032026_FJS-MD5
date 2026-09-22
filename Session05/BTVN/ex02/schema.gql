@@ -1,0 +1,32 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type OrderItemResponse {
+  productId: ID!
+  quantity: Int!
+}
+
+type Order {
+  id: ID!
+  customerName: String!
+  items: [OrderItemResponse!]!
+}
+
+type Query {
+  ping: String!
+}
+
+type Mutation {
+  createOrder(input: CreateOrderInput!): Order!
+}
+
+input CreateOrderInput {
+  customerName: String!
+  items: [CreateOrderItemInput!]!
+}
+
+input CreateOrderItemInput {
+  productId: ID!
+  quantity: Int!
+}
